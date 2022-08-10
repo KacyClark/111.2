@@ -6,10 +6,10 @@ def output_formatter(results):
     for result in results:
         user = {
             "id": result[0],
-            "first_nname": result[1],
+            "first_name": result[1],
             "last_name": result[2],
             "hobbies": result[3],
-            "active3": result[4]
+            "active": result[4]
         }
         out.append(user)
     return out
